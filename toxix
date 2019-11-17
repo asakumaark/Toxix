@@ -1,0 +1,10 @@
+#!/usr/bin/python2
+
+import sys
+import os
+
+os.system("clear")
+os.system("figlet TOXIX.Z")
+echo("by CL4W")
+url=raw_input("[+]ENTER WEBSITE: ")
+os.system("whois %s" % (url))
